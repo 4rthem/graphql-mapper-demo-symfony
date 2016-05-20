@@ -1,0 +1,7 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+arthem_graphql:
+    resource: "@ArthemGraphQLBundle/Resources/config/routing.yml"
+    prefix:   /graphql
